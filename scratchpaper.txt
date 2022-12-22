@@ -1,0 +1,57 @@
+
+https://allenbenedictilag.github.io/SVCC-BSIT-GROUP-MASK/
+
+
+home - home
+about - project
+course - documentation
+blog - feedback
+contact - about us
+
+COLORS 
+white - #fff
+ivory - #fffff0
+cream - #fffdd0
+beige - #f5f5dc
+tan - #d2b48c
+sand - #c2b280
+mocha - #a07b71
+
+REPLACING PICTURES, Kay sammy na
+
+
+
+
+	rgba(192, 7, 7, 0.935)	
+    color: #222;
+
+
+	
+ <p align="justify"></p>
+
+
+
+COPY PASTE YUNG FORMAT NG PIC NI KAT
+
+TAPUSIN ABOUT 
+
+<img src="sammy.png">
+            <h2>Sara, Sammywel Joyag</h2>
+            <img src="mary.png".png">
+            <h2>Badillo, Mary Rose B.</h2>
+            <img src="allaine.png">
+            <h2>Ilag, Allaine Benedict C.</h2>
+
+		<br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+
+Our group consist of four members. We have created this site for our project in Computer Science

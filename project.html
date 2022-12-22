@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVCC BSIT Group 3 Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="MaskAirlineLogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="project.html">PROJECT</a></li>
+                    <li><a href="documentation.html">DOCUMENTATION</a></li>
+                    <li><a href="feedback.html">FEEDBACK</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Project</h1>
+    </section>
+
+
+
+    <!------- PROJECT  ------->
+
+<section class="project-header">
+    <h1>MASK Airlines Reservation</h1>
+</section>
+
+<section class="project-base">
+    <div class="project-col">
+        <p>MASK Airline Reservation is based on the concept of booking and canceling flight reservations. Here, the system contains no login feature. The users can easily book flights, cancel flight reservations, and check records. It contains different payment options for the reservations. This mini project contains fewer features but essential ones.
+        </p>
+    </div>
+    <div class="project-col">
+        <h3>About the Project</h3>
+        <p>Talking about the features of Airline Booking, the system asks for the passenger’s information such as name, passport no, email id. After all these procedures,  a reservation is done. As reservation proof, the system provides seat numbers.  In order to check tickets, the user has to provide seat no. then only the system check for the respective tickets in the database and displays a result. Canceling a flight reservation is easy through the system, the user just has to provide their seat number.
+        </p>
+    </div>
+    <div class="project-col">
+        <h3>How to Run the Project?</h3>
+        <p>In order to run the project, you must have installed Dev C++ or Code Blocks on your PC (we recommend this IDE). The source code is in the file of our website named (PROJECT-SOURCE-CODE.txt) For the project demo, have a look at the video below:
+        </p>
+    </div>
+</section>
+
+<section class="feature-header">
+    <h1>Features of this project</h1>
+</section>
+
+<section class="feature">
+    <div class="feature-col">
+        <h3>Packages</h3>
+        <p>Packages includes the voucher like ticket for passengers. This help passengers to access their booking easily and Air travel package means the pre-arranged combination of air transport and ground accommodation and /or other tourist services, sold or offered for sale at an inclusive price. Our packages should consist of 2 adults (18 years old and above) and 2 kids (17 years old and low).
+        </p>
+        <center>
+        <video controls>
+            <source src="package.mp4" type="video/mp4">
+        </video>
+        </center>
+    </div>
+    <div class="feature-col">
+        <h3>Manual Reservation</h3>
+        <p>This manual reservation is created so that you will be the one who will create your booking and you can choose in a variety of destination. Here you won't be having a packages but you have the rights to use any of the given voucher that you can see in number 3.Coupons so that you would have a reduction on your ticket prizes.
+        </p>
+        <center>
+        <video controls>
+            <source src="manual.mp4" type="video/mp4">
+        </video>
+        </center>
+    </div>
+    <div class="feature-col">
+        <h3>Coupons</h3>
+        <p>Flight Coupon means a portion of a passenger ticket or, in case of an electronic ticket, an electronic coupon, where they indicate the corresponding points of destination and arrival between which the coupon is valid for transportation of passenger and baggage. We indicate coupon code so that it will be easy to access, and each code consist of deduction percentage (5%,10%,15%) which you can use as a discount in your flight.
+        </p>
+        <center>
+        <video controls>
+            <source src="coupons.mp4" type="video/mp4">
+        </video>
+        </center>
+    </div>
+    <div class="feature-col">
+        <h3>Reports</h3>
+        <p>This is the page where you can find the report, information, record and transaction of your site or program. You can only see the report if the site has been use and transacted already.
+        </p>
+        <center>
+        <video controls>
+            <source src="reports.mp4" type="video/mp4">
+        </video>
+        </center>
+    </div>
+    <div class="feature-col">
+        <h3>Credits</h3>
+        <p>This is where you can find the names of the developer of this program.
+        </p>
+        <center>
+        <video controls>
+            <source src="credits.mp4" type="video/mp4">
+        </video>
+        </center>
+    </div>
+    <div class="feature-col">
+        <h3>Exit</h3>
+        <p>This will bring your program to close.</p>
+        <center>
+        <video controls>
+            <source src="exit.mp4" type="video/mp4">
+        </video>
+        </center>
+    </div>
+</section>
+
+<section class="feature-footer">
+    <h1>END OF DEMO</h1>
+</section>
+
+
+
+    <!------- FOOTER  ------->
+<section class="footer">
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-telegram"></i>
+    </div>
+    <p> 
+        Copyright &copy;2022 Mask Airlines, All rights reserved.
+        <br> All logos, patents, and trademarks belong to their respective owners
+        <br> Disclaimer
+        <br> Some content in this website are sourced from internet and <br> this is for education purposes only
+    </p>
+</section>
+
+
+
+    <!-- JAVASCRIPT FOR TOGGLE MENU -->>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>

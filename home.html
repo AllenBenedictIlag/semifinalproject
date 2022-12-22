@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVCC BSIT Group 3 Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.html"><img src="MaskAirlineLogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="project.html">PROJECT</a></li>
+                    <li><a href="documentation.html">DOCUMENTATION</a></li>
+                    <li><a href="feedback.html">FEEDBACK</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>MASK AIRLINES</h1>
+    <p>
+        Its mission is to facilitate your transaction on every flight. 
+        The ease <br> and quickness of booking tickets can be shown here. 
+        <br> We are happy to serve you.
+    </p>
+    <a class="hero-btn" href="#project-header">Visit Us To know More</a>
+</div>
+
+    </section>
+
+
+
+    <!------- COURSE ------->>
+    <section id="project-header" class="project-header">
+        <h1>MASK Airlines Reservation</h1>
+    </section>
+    
+    <section class="project-base">
+        <div class="project-col">
+            <p>MASK Airline Reservation is based on the concept of booking and canceling flight reservations. Here, the system contains no login feature. The users can easily book flights, cancel flight reservations, and check records. It contains different payment options for the reservations. This mini project contains fewer features but essential ones.
+            </p>
+        </div>
+        <div class="project-col">
+            <h3>About the Project</h3>
+            <p>Talking about the features of Airline Booking, the system asks for the passenger’s information such as name, passport no, email id. After all these procedures,  a reservation is done. As reservation proof, the system provides seat numbers.  In order to check tickets, the user has to provide seat no. then only the system check for the respective tickets in the database and displays a result. Canceling a flight reservation is easy through the system, the user just has to provide their seat number.
+            </p>
+        </div>
+        <div class="project-col">
+            <h3>How to Run the Project?</h3>
+            <p>In order to run the project, you must have installed Dev C++ or Code Blocks on your PC (we recommend this IDE). The source code is in the file of our website named (PROJECT-SOURCE-CODE.txt) For the project demo, have a look at the video below:
+            </p>
+        </div>
+    </section>
+    
+
+
+
+ <!------- GROUP DOCUMENTARY ------->
+ <section class="groupdocs">
+    <h1>Group Documentary</h1>
+    <div class="docsrow">
+        <div class="group-col">
+            <img src="meet1.png">
+            <h3>FUN</h3>
+            <p>During our meets to create our project, we are teasing and joking with each other. Our project is not easy but we had fun doing it. </p>
+        </div>
+        <div class="group-col2">
+            <img src="chat.png">
+            <h3>GUIDE</h3>
+            <p>Having a project and reviewing about our test, despite having a great pressure from our activities. We still help and guide each other if the other need helps.</p>
+        </div>
+        <div class="group-col">
+            <img src="meet2.png">
+            <h3>FOCUS</h3>
+            <p>In meets we have done during our preparations and doing of our projects, we sometimes have fun. But most of the times, we are focused on our designated task.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="misvis-header">
+    <h1>MISSION AND VISION</h1>
+</section>
+
+<section class="mission-vision">
+    <div class="misvis-col">
+        <h3>MISSION:</h3>
+        <p>The accession of our airlines reservation system by travel businesses act as strong flight search software. The logical and productive application of the online air ticket booking system helps the end customer of the company in selecting the best package provide by some distributors. 
+        </p>        
+    </div>
+    <div class="misvis-col">
+        <h3>VISION:</h3>
+        <P>The MASK Airline Reservation System project is an implementation of a general Airline Ticketing website, which helps the customers to search the availability and prices of various airline tickets, along with the different packages available with the reservations. This project also covers various features like online registration of the users, modifying the details of the website by the management staff or administrator of the website, by adding, deleting or modifying the customer details, flights or packages information. In general, this website would be designed to perform like any other airline
+        ticketing website available online</P>
+    </div>
+</section>
+
+
+
+
+
+    
+    
+    <!------- CALL TO ACTION  ------->
+<section class="cta">
+    <h1>Enroll For Our Various Online Courses <br> Anywhere From The World</h1>
+    <a href="aboutus.html" class="hero-btn">CONTACT US</a>
+</section>
+
+
+
+<!------- FOOTER  ------->
+<section class="footer">
+    <p>Guided by <i class="fa fa-youtube"></i>Easy Tutorials</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-telegram"></i>
+    </div>
+    <p> 
+        Copyright &copy;2022 Mask Airlines, All rights reserved.
+        <br> All logos, patents, and trademarks belong to their respective owners
+        <br> Disclaimer
+        <br> Some content in this website are sourced from internet and <br> this is for education purposes only
+    </p>
+</section>
+    
+
+
+
+    <!-- JAVASCRIPT FOR TOGGLE MENU -->>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
